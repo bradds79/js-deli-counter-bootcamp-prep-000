@@ -1,3 +1,3 @@
-function takeANumber(katzDeli, 'Ada') {
+function takeANumber(katzDeli, name) {
   
 }
