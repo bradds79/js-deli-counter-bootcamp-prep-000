@@ -21,5 +21,8 @@ function currentLine (name) {
   while (i < name.length) {
     newName.push(`${name.length}. + " " + ${name},`)
   }
+  if (i > name.length) {
+    return ""
+  }
   return newName;
 }
