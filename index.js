@@ -22,7 +22,7 @@ function currentLine (name) {
     newName.push(`${name.length}. + " " + ${name},`)
   }
   if (i > name.length) {
-    return ""
-  }
+    return "The line is currently empty."
+  } else
   return newName;
 }
