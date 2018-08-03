@@ -19,7 +19,7 @@ function currentLine (name) {
   var newName = [];
   var i = 0;
   while (i < name.length) {
-    newName.push(` ` + [i+1] + `.` + name[i]);
+    newName.push(` ` + [i+1] + `. ` + name[i]);
     i++;
   }
   if (i > newName.length) {
