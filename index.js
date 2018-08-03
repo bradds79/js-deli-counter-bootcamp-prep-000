@@ -15,6 +15,7 @@ function nowServing (katzDeli) {
  }
 }
 
-function currentLine () {
+function currentLine (name) {
+  
   
 }
