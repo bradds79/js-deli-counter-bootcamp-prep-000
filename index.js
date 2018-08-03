@@ -25,5 +25,5 @@ function currentLine (name) {
   if (i > newName.length) {
     return "The line is currently empty."
   } else
-  return (`${newName.length}. ${newName},`);
+  return (`The line is currently: ${newName.length}. ${newName},`);
 }
