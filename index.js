@@ -19,10 +19,11 @@ function currentLine (name) {
   var newName = [];
   var i = 0;
   while (i < name.length) {
-    newName.push(`${name.length}. + " " + ${name},`)
+    newName.push(name[i]);
+    i++;
   }
   if (i > name.length) {
     return "The line is currently empty."
   } else
-  return newName;
+  return (`${name.length}. + " " + ${name},`);
 }
