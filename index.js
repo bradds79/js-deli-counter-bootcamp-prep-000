@@ -16,6 +16,10 @@ function nowServing (katzDeli) {
 }
 
 function currentLine (name) {
-  
-  
+  var newName = [];
+  var i = 0;
+  while (i < name.length) {
+    newName.push(`${name.length}. + " " + ${name},`)
+  }
+  return newName;
 }
