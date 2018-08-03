@@ -23,7 +23,7 @@ function currentLine (name) {
     i++;
   }
   if (i > newName.length) {
-    return "The line is currently empty."
+    return "The line is currently empty.";
   } else
   return (`The line is currently:` + newName);
 }
